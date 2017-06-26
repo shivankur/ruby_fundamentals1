@@ -3,6 +3,6 @@
 
 
 puts "How old are you?"
-age = gets.chomp
-year = 2017 - age.to_i
+age = gets.chomp.to_i
+year = 2017 - age
 puts "You are born in #{year}"
